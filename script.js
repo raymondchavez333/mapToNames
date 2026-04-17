@@ -4,6 +4,6 @@ let mary = {name: "Mary", age: 28};
 
 let users = [john, pete, mary];
 
-let name = 
+let names = users.map(item => item.name);
 
-alert(names);
+alert(names); // an array to to show the names
